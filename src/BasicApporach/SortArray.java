@@ -33,7 +33,6 @@ public class SortArray {
             }
             System.out.print(" " +arr[i]);
         }
-        System.out.print("]");
         return arr;
     }
 }
