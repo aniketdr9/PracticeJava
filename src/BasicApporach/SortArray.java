@@ -17,7 +17,7 @@ public class SortArray {
         for (int i =0; i<arrlen; i++){
             System.out.print(arr[i]+ " ");
         }
-        System.out.print("]");
+        System.out.println("]");
         sortArray(arr);
     }
 
