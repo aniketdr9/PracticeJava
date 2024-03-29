@@ -12,10 +12,9 @@ public class CountDigits {
 
     public static int countNumberDigit(long num){
         int res = 0;
+        num = Math.abs(num);
         if(num == 0)
             return 1;
-        if(num < 0)
-            res = 0;
         while(num != 0){
             num = num/10;
             res++;
